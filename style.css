@@ -1,0 +1,89 @@
+body
+{
+    background-image: url(img/banner_1.jpg);
+    background-size: cover;
+}
+.titulo
+{
+    width: 90%;
+    background-color: #003e8057;
+    margin-left: 80px;
+    height: 80px;
+    border-radius: 20px;
+    display: flex;   
+ 
+    
+}
+.titulo h1
+{
+    text-align: center;
+    color: aliceblue;
+    width: 50%;
+    font-family: 'Fira Sans', sans-serif; 
+    margin-left: 10px;   
+}
+.logo
+{
+    width: 40%;
+}
+.logo img
+{
+    width: 60px;
+    margin-left: 730px;
+    padding-top: 10px;
+    
+}
+#banner
+{
+    width:70%;
+    margin-left: 300px;
+    border-radius: 20px;
+    height: 700px;
+    position: absolute;
+    margin-top: 50px;
+    display: block;
+}
+.info
+{
+    width: 25%;
+    background-color: rgba(23, 72, 115, 0.664);
+    border-radius: 10px;
+    padding: 15px;
+    position: relative;
+    top: 90px;
+    left: 320px;
+    border: 2px solid yellow;
+}
+.info p
+{
+    font-size: 18px;
+    color: aliceblue;
+    font-family: 'Fira Sans', sans-serif; 
+    text-align: center;
+}
+#cards
+{
+    position: relative;
+    margin-top: 700px;
+    width: 100%;
+    height: 600px;
+    background-color:blueviolet;
+    border-radius: 15px;
+    background-image: url(img/pattern.jpg);
+    background-size:cover;
+
+       
+}
+.grupos
+{
+    color:blue;
+    margin-left: 30px;
+    padding-top: 2px;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 20px;
+}
+#imagenes
+{
+    display: inline-flex;
+    margin-left: 0px;
+}
