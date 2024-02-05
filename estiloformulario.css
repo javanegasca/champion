@@ -5,6 +5,29 @@
     margin: 0;
 }
 
+nav
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-weight: bold;
+    background-color: #0b103b86;
+}
+
+.logoc
+{
+    padding-bottom: 20px;
+}
+ul li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+ 
+
+
 title
 {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
