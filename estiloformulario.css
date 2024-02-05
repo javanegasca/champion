@@ -1,0 +1,148 @@
+/* Importación de fuentes de google fonts */
+@import url(https://fonts.googleapis.com/css?family=Noto+Sans);
+*
+{
+    margin: 0;
+}
+
+body {
+    height: 100%;
+    font-family: 'Noto Sans', sans-serif;
+    background-image: url(img/championsleague.jpg);
+    background-repeat: no-repeat;
+}
+
+.contact_form {
+    width: 460px;
+    height: auto;
+    margin: 80px auto;
+    border-radius: 10px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    background-color: #fbfbfb;
+    padding-left: 30px;
+    box-shadow: 10px 5px 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+
+input {
+    background-color: #fbfbfb;
+    width: 408px;
+    height: 40px;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #7e09dd;
+    margin-top: 10px;
+    padding-left: 10px;
+    margin-bottom: 20px;
+}
+
+
+textarea {
+    background-color: #fbfbfb;
+    width: 405px;
+    height: 150px;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #7a00ec;
+    margin-top: 10px;
+    padding-left: 10px;
+    margin-bottom: 20px;
+    padding-top: 15px;
+}
+
+
+label {
+    display: block;
+    float: center;
+}
+
+
+button {
+    height: 45px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    text-transform: uppercase;
+    background-color: #7a00ec;
+    border-color: #0044ff;
+    border-style: solid;
+    border-radius: 10px;
+    width: 420px;
+    cursor: pointer;
+    transition:800ms ease all;
+    outline:none;
+}
+
+button p 
+{
+    color: black;
+    font-weight:bolder;
+}
+
+button p:hover
+{
+    color: blue;
+}
+button:hover
+{
+    background-color: bisque;
+}
+
+
+
+span {
+    color: #40a1f0;
+}
+
+
+.aviso {
+    font-size: 13px;
+    color: #0e0e0e;
+}
+
+
+h1 {
+    font-size: 39px;
+    text-align: letf;
+    padding-bottom: 10px;
+    color: #1916d6;
+}
+
+
+h3 {
+    font-size: 16px;
+    padding-bottom: 10px;
+    color: #0e0e0e;
+}
+
+
+p {
+    font-size: 14px;
+    color: #0e0e0e;
+}
+
+
+::-webkit-input-placeholder {
+    color: #a8a8a8;
+}
+
+
+::-webkit-textarea-placeholder {
+    color: #a8a8a8;
+}
+
+
+.formulario input:focus {
+    outline: 0;
+    border: 2px solid #0059ff;
+}
+
+
+.formulario textarea:focus {
+    outline: 0;
+    border: 1px solid #086df0;
+}
