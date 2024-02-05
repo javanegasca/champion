@@ -5,6 +5,10 @@
     margin: 0;
 }
 
+title
+{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
 body {
     height: 100%;
     font-family: 'Noto Sans', sans-serif;
@@ -67,7 +71,7 @@ button {
     margin-bottom: 20px;
     margin-top: 10px;
     text-transform: uppercase;
-    background-color: #7a00ec;
+    background-color: #3ac7ff;
     border-color: #0044ff;
     border-style: solid;
     border-radius: 10px;
