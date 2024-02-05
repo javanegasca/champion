@@ -87,3 +87,83 @@ body
     display: inline-flex;
     margin-left: 0px;
 }
+nav
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-weight: bold;
+}
+.logoc
+{
+    padding-bottom: 20px;
+}
+ul li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    font-family:'Fira Sans', sans-serif;
+}
+a:hover{
+    color:rgb(136, 136, 56);
+}
+/* ... Estilos anteriores ... */
+
+.container-fluid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.noticia {
+    width: 300px;
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+.noticia img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
+
+.noticia h2 {
+    font-size: 1.2em;
+    margin-top: 10px;
+    color: rgb(255, 255, 255);
+}
+
+.noticia p {
+    font-size: 0.9em;
+    color: rgb(255, 255, 255);
+}
+
+.noticia img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+    display: block;
+    margin: 0 auto;}
+    
+
+.noticia a {
+    display: block;
+    text-align: right;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+
+
+
